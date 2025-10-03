@@ -35,7 +35,7 @@ export default function HomePage() {
           href="tel:03333447600"
           className="flex items-center justify-center gap-6 pl-12 pr-14 py-4 rounded-2xl shadow-md bg-[#33F5C1] text-black border border-white hover:bg-white hover:border-[#33F5C1] hover:text-[#000] transition-colors duration-300 border-4"
         >
-          <div className="animate-swing text-black hover:text-[#33E5F5] transition-colors duration-300">
+          <div className="animate-swing text-black hover:text-[#33F5C1] transition-colors duration-300">
             {/* New Heroicons Phone Icon */}
             <svg
               xmlns="http://www.w3.org/2000/svg"

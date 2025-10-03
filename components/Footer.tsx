@@ -100,14 +100,6 @@ const Footer: React.FC<FooterProps> = ({
             PURPLE SPRING LIMITED, registered in England and Wales, Company Number: 11611972. Address: 4200 Solihull Parkway, Birmingham Business Park, Birmingham, England, B37 7YN. PURPLE SPRING LIMITED operates within the advertising sector, specialising in lead generation. PURPLE SPRING LIMITED is registered with the Information Commissioner’s Office under the Data Protection Act 2018
           </p>
 
-          <p className="text-xs">
-            We are a regulated claims management firm, not an insurer. We assist drivers in making non-fault accident claims. You are not required to use the services of Motor Accident Group and may instead represent yourself for free either to the person you may wish to complain about or to the relevant statutory Ombudsman.
-          </p>
-
-          <p className="text-xs">
-            Disclaimer: We are committed to providing clear, transparent, and accurate information to help you make informed decisions. Please be aware that while we aim to highlight the potential benefits of our services, these may vary depending on the specifics of your case. For example, if a matter is determined to be non-fault, certain benefits may not apply. Additionally, in the event of an unsuccessful claim, you may still incur costs. Our focus is on supporting you at every stage and helping you navigate any challenges confidently.
-          </p>
-
           <p className="text-xs font-bold">
             © 2025 Car Accident Line. All rights reserved.
           </p>
