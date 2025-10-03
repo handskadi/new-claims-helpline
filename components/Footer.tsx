@@ -97,7 +97,7 @@ const Footer: React.FC<FooterProps> = ({
 
         <div className="mt-8 pt-8 border-t border-gray-200 space-y-4">
           <p className="text-xs">
-            PURE ROCKET MARKETING LTD, registered in England and Wales, Company Number: 16511032. Address: Unit C, Blackett Street, Manchester, England, M12 6AE. PURE ROCKET MARKETING LTD operates within the advertising sector, specialising in lead generation. We refer claims to a panel of specialist solicitors who will manage your case from start to finish. Our panel of solicitors typically work on a “no win, no fee” basis. This means that if your claim is unsuccessful, you will not pay any legal fees to your solicitor. When a claim is taken on under a No Win No Fee agreement, the solicitor accepts the risk that if the case is lost, they will not be paid for the work undertaken. However, they may charge a success fee, typically set at 42% of the damages awarded. You are under no obligation to use PURE ROCKET MARKETING LTD and may instead represent yourself for free, either directly to the party you wish to complain about or to the relevant statutory Ombudsman. PURE ROCKET MARKETING LTD is registered with the Information Commissioner’s Office under the Data Protection Act 2018.
+            PURPLE SPRING LIMITED, registered in England and Wales, Company Number: 11611972. Address: 4200 Solihull Parkway, Birmingham Business Park, Birmingham, England, B37 7YN. PURPLE SPRING LIMITED operates within the advertising sector, specialising in lead generation. PURPLE SPRING LIMITED is registered with the Information Commissioner’s Office under the Data Protection Act 2018
           </p>
 
           <p className="text-xs">

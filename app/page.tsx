@@ -72,7 +72,7 @@ export default function HomePage() {
         </p>
       </section>
 
-      {/* Section 1 */}
+      {/* Section 1 - About Us */}
       <section className="w-full px-4 lg:px-80 py-8 bg-white">
         <div className="flex flex-col lg:flex-row items-center gap-10 py-8 border-b border-[#33E5F5] ">
           <div className="lg:w-1/2">
@@ -86,19 +86,22 @@ export default function HomePage() {
             />
           </div>
           <div className="lg:w-1/2">
-            <h2 className="text-2xl font-bold mb-4">Who are we?</h2>
+            <h2 className="text-2xl font-bold mb-4">About Us</h2>
             <p className="mb-4 text-gray-700">
-              We are a UK-based company specialising in helping drivers who have been involved in non fault accidents get back on the road faster and safer.
+              We are a UK specialist service dedicated to assisting drivers involved in non-fault accidents, helping you return to normal faster and safer.
             </p>
-            <p className="my-6 text-gray-700">At Car Accident Line, we take the stress out of what comes after a not at fault accident. Our UK-based team focuses on getting you back on the road quickly with a simple, no-hassle process. From same-day like-for-like replacement vehicles to manufacturer-approved repairs, we handle everything so you can focus on getting back to normal.
+            <p className="my-6 text-gray-700">
+              At Car Accident Line, we remove the hassle from what follows an accident that wasn’t your fault. Our team in the UK focuses on giving you quick support—from arranging like-for-like replacement vehicles on the same day to organizing manufacturer-standard repairs. We take care of it all so you can focus on recovery.
             </p>
-            <p className="my-6 text-gray-700">Disclaimer: As an independent service, we have no ties to insurers or third parties. Our only priority is protecting your rights and ensuring you get the support you deserve after a non fault accident.</p>
+            <p className="my-6 text-gray-700">
+              As an independent service provider, we’re not aligned with any insurers or third parties. Our sole mission is to protect your rights and make sure you receive the assistance you’re entitled to after a non-fault accident.
+            </p>
             <CallButton />
           </div>
         </div>
       </section>
 
-      {/* Section 2 */}
+      {/* Section 2 - Why Choose Us */}
       <section className="w-full px-4 lg:px-80 py-8 bg-white">
         <div className="flex flex-col lg:flex-row-reverse items-center gap-10 py-8 border-b border-[#33E5F5] ">
           <div className="lg:w-1/2">
@@ -111,26 +114,26 @@ export default function HomePage() {
             />
           </div>
           <div className="lg:w-1/2">
-            <h2 className="text-2xl font-bold mb-4">Why Trust Us?</h2>
+            <h2 className="text-2xl font-bold mb-4">Why Choose Us?</h2>
             <p className="mb-4 text-gray-700">
-              When you’ve been in a non fault accident, you need more than promises—you need results. Car Accident Line has built its reputation on delivering fast, independent accident support that puts drivers first every time.
+              After a non-fault crash, promises don’t count — results do. Car Accident Line has built trust on delivering fast, independent accident support that always places drivers first.
             </p>
             <ul className="mb-6 text-gray-700 list-disc pl-5 space-y-2">
-              <li><strong>Same-Day Vehicle Replacement:</strong> Like-for-like cars, vans, or motorcycles, delivered quickly so you’re never left without transport.</li>
-              <li><strong>Manufacturer-Approved Repairs:</strong> Quality you can trust, protecting your vehicle’s value.</li>
-              <li><strong>Independent &amp; Unbiased Advice:</strong> No insurer affiliations, our only loyalty is to you.</li>
-              <li><strong>Proven Track Record:</strong> Thousands of successful claims managed for UK drivers.</li>
-              <li><strong>Transparent Process:</strong> No hidden fees, no surprises, just straightforward support from start to finish.</li>
+              <li><strong>Same-Day Replacement Vehicles:</strong> Cars, vans, or motorcycles delivered swiftly, so you’re never stranded.</li>
+              <li><strong>Manufacturer-Approved Repairs:</strong> High-quality repairs that protect your vehicle’s value.</li>
+              <li><strong>Unbiased Guidance:</strong> No insurer ties — our only loyalty is to you.</li>
+              <li><strong>Proven Results:</strong> Thousands of successfully handled UK claims.</li>
+              <li><strong>Transparent Approach:</strong> No hidden fees, no surprises — just clear help from start to finish.</li>
             </ul>
             <p className="mb-6 text-gray-700">
-              Your recovery starts the moment you call. Speak to our UK-based team today and get the help you need.
+              Your recovery starts the moment you reach out. Talk to our UK-based specialists today and get the help you need.
             </p>
             <CallButton />
           </div>
         </div>
       </section>
 
-      {/* Section 3 */}
+      {/* Section 3 - What We Cover */}
       <section className="w-full px-4 lg:px-80 py-8 bg-white">
         <div className="flex flex-col lg:flex-row items-center gap-10 py-8 border-b border-[#33E5F5]">
           <div className="lg:w-1/2">
@@ -144,23 +147,15 @@ export default function HomePage() {
             />
           </div>
           <div className="lg:w-1/2">
-            <h2 className="text-2xl font-bold mb-4">What’s Covered?</h2>
+            <h2 className="text-2xl font-bold mb-4">What We Cover</h2>
             <p className="mb-4 text-gray-700">
-              We handle every aspect of your non fault accident claim, from start to finish.
+              We oversee every aspect of your non-fault accident claim, from beginning to end:
             </p>
             <ul className="mb-6 text-gray-700 list-disc pl-5 space-y-2">
-              <li>
-                <strong>Roadside Recovery:</strong> If your vehicle can’t be driven, we’ll arrange fast roadside recovery, getting you and your vehicle to safety without delay.
-              </li>
-              <li>
-                <strong>Vehicle Replacement:</strong> Stay mobile with a like-for-like replacement vehicle arranged quickly, so you’re never left without transport.
-              </li>
-              <li>
-                <strong>Accident Repairs:</strong> Your vehicle will be restored using only manufacturer-approved parts by trusted professionals, ensuring quality and protecting its value.
-              </li>
-              <li>
-                <strong>Injury Compensation:</strong> If you’ve been injured in a non fault accident, we can connect you with our panel of reputable solicitors who will work hard to secure a fair offer of compensation.
-              </li>
+              <li><strong>Roadside Recovery:</strong> If your vehicle is undrivable, we’ll arrange urgent recovery to ensure you and your vehicle reach safety.</li>
+              <li><strong>Vehicle Replacement:</strong> Stay mobile with a like-for-like replacement vehicle quickly arranged so you aren’t left without transport.</li>
+              <li><strong>Accident Repairs:</strong> Restorations are done using manufacturer-approved parts by trusted professionals, preserving quality and value.</li>
+              <li><strong>Injury Compensation:</strong> If you’ve been hurt in a non-fault accident, we connect you with a panel of respected solicitors to pursue fair compensation.</li>
             </ul>
             <CallButton />
           </div>
@@ -181,36 +176,36 @@ export default function HomePage() {
         {/* FAQ List */}
         {[
           {
-            q: "What happens when you have a car accident and it’s not your fault?",
-            a: "If you’ve been in a non fault accident, you can choose to go through an independent service like Car Accident Line. We’ll provide a replacement vehicle, manage your repairs, and handle communication with the at-fault party’s insurer, keeping you stress-free throughout."
+            q: "What happens if I’m involved in a non-fault accident?",
+            a: "You can use an independent service like Car Accident Line. We’ll arrange a replacement vehicle, manage repairs, and liaise with the insurer of the at-fault party — making the process smooth and worry-free."
           },
           {
-            q: "What are my rights in an accident that is not my fault?",
-            a: "If an accident is not your fault, you have the right to claim directly from the at-fault driver’s insurer for all reasonable losses. This can include the cost of repairs, a replacement vehicle, and compensation for any injuries or inconvenience caused."
+            q: "What rights do I have after an accident that wasn’t my fault?",
+            a: "You’re entitled to claim from the insurer of the at-fault party for all reasonable losses: repairs, a replacement vehicle, and compensation for injuries or inconvenience."
           },
           {
             q: "How quickly can I get a replacement vehicle?",
-            a: "In most cases, we can arrange a like-for-like replacement vehicle the very same day you report your accident."
+            a: "In many cases, we can supply a like-for-like replacement on the same day you report the accident."
           },
           {
             q: "Are repairs guaranteed?",
-            a: "Yes. All repairs are carried out using manufacturer-approved parts and come with a guarantee for as long as you own the vehicle."
+            a: "Yes. All repairs use manufacturer-approved parts and come with a guarantee for as long as you own the vehicle."
           },
           {
-            q: "Do I have to pay extra if the accident wasn’t my fault?",
-            a: "If the other driver’s insurer accepts liability, you shouldn’t have to pay your excess. If you claim through Car Accident Line, we deal directly with the at-fault insurer so you avoid paying any excess up front."
+            q: "Do I have to pay anything if the accident wasn’t my fault?",
+            a: "If liability is accepted by the other driver’s insurer, you shouldn’t have to pay your excess. When you claim through Car Accident Line, we deal directly with the at-fault insurer, so you’re not asked for the excess upfront."
           },
           {
-            q: "What documentation do I need?",
-            a: "Typically, we’ll need your driving licence, insurance details, and basic accident information. Our team will guide you through the exact requirements when you call."
+            q: "What documents are needed?",
+            a: "Usually: your driving licence, insurance details, and basic accident information. Our team will guide you step-by-step when you call."
           },
           {
-            q: "Do you lose your No Claims Bonus if an accident wasn’t your fault?",
-            a: "Generally, if the at-fault party accepts responsibility and covers all costs, your No Claims Bonus should remain intact. However, some insurers may temporarily reduce your discount until the claim is fully settled."
+            q: "Will I lose my No Claims Bonus if the accident wasn’t my fault?",
+            a: "Generally not, if liability is accepted and the costs are fully covered, your No Claims Bonus should remain intact. Some insurers may, however, temporarily reduce it until the claim settles."
           },
           {
-            q: "Will my insurance increase after a claim that wasn’t my fault?",
-            a: "It’s possible your premium may increase slightly, even for a non fault accident, as insurers may view you as a higher risk. Using an independent accident management company can help minimise the impact on your policy."
+            q: "Could my insurance premium still go up?",
+            a: "Yes, even for a non-fault accident, your insurer might view you as higher risk. Using an independent accident management service like ours can help limit that impact."
           }
         ].map((item, index) => (
           <details
