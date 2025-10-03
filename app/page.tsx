@@ -12,7 +12,7 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section
-        className="flex flex-col items-center justify-center text-center w-full px-4 py-12 gap-6 bg-[#E3FDFF] bg-no-repeat bg-center"
+        className="flex flex-col items-center justify-center text-center w-full px-4 py-12 gap-6 bg-[#33f5c11c] bg-no-repeat bg-center"
         style={{
           backgroundImage: "url('/hero-bg.png')",
           backgroundSize: "80%",
@@ -33,7 +33,7 @@ export default function HomePage() {
 
         <Link
           href="tel:03333447600"
-          className="flex items-center justify-center gap-6 pl-12 pr-14 py-4 rounded-2xl shadow-md bg-[#33E5F5] text-black border border-white hover:bg-white hover:border-[#33E5F5] hover:text-[#000] transition-colors duration-300 border-4"
+          className="flex items-center justify-center gap-6 pl-12 pr-14 py-4 rounded-2xl shadow-md bg-[#33F5C1] text-black border border-white hover:bg-white hover:border-[#33F5C1] hover:text-[#000] transition-colors duration-300 border-4"
         >
           <div className="animate-swing text-black hover:text-[#33E5F5] transition-colors duration-300">
             {/* New Heroicons Phone Icon */}
@@ -74,7 +74,7 @@ export default function HomePage() {
 
       {/* Section 1 - About Us */}
       <section className="w-full px-4 lg:px-80 py-8 bg-white">
-        <div className="flex flex-col lg:flex-row items-center gap-10 py-8 border-b border-[#33E5F5] ">
+        <div className="flex flex-col lg:flex-row items-center gap-10 py-8 border-b border-[#33F5C1] ">
           <div className="lg:w-1/2">
             <Image
               src="/images/img1.jpg"
@@ -103,7 +103,7 @@ export default function HomePage() {
 
       {/* Section 2 - Why Choose Us */}
       <section className="w-full px-4 lg:px-80 py-8 bg-white">
-        <div className="flex flex-col lg:flex-row-reverse items-center gap-10 py-8 border-b border-[#33E5F5] ">
+        <div className="flex flex-col lg:flex-row-reverse items-center gap-10 py-8 border-b border-[#33F5C1] ">
           <div className="lg:w-1/2">
             <Image
               src="/images/img2.jpg"
@@ -135,7 +135,7 @@ export default function HomePage() {
 
       {/* Section 3 - What We Cover */}
       <section className="w-full px-4 lg:px-80 py-8 bg-white">
-        <div className="flex flex-col lg:flex-row items-center gap-10 py-8 border-b border-[#33E5F5]">
+        <div className="flex flex-col lg:flex-row items-center gap-10 py-8 border-b border-[#33F5C1]">
           <div className="lg:w-1/2">
             <Image
               src="/images/img3.jpg"
@@ -210,11 +210,11 @@ export default function HomePage() {
         ].map((item, index) => (
           <details
             key={index}
-            className="border-b border-cyan-300 py-4 group"
+            className="border-b border-[#33F5C1] py-4 group"
           >
             <summary className="flex items-center justify-between cursor-pointer text-lg font-semibold text-black">
               {item.q}
-              <span className="relative text-cyan-400 text-2xl w-6 h-6 flex items-center justify-center">
+              <span className="relative text-[#33F5C1] text-2xl w-6 h-6 flex items-center justify-center">
                 <span className="block group-open:hidden">+</span>
                 <span className="hidden group-open:block">−</span>
               </span>

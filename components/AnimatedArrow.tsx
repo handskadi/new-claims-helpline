@@ -19,8 +19,8 @@ export default function AnimatedArrow() {
           display: block;
           width: 10px;
           height: 10px;
-          border-bottom: 3px solid #33E5F5;
-          border-right: 3px solid #33E5F5;
+          border-bottom: 3px solid #33F5C1;
+          border-right: 3px solid #33F5C1;
           transform: rotate(45deg);
           margin: -6px;
           animation: animate 2s infinite;

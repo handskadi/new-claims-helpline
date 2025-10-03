@@ -6,7 +6,7 @@ const CallButton = () => {
     return (
         <a
             href="tel:03333447600"
-            className="inline-flex items-center gap-2 bg-[#33E5F5] text-black border-[3px] border-white hover:bg-white hover:text-[#000] hover:border-[#33E5F5] font-semibold px-6 py-3 rounded-2xl shadow transition-colors duration-300"
+            className="inline-flex items-center gap-2 bg-[#33F5C1] text-black border-[3px] border-white hover:bg-white hover:text-[#000] hover:border-[#33F5C1] font-semibold px-6 py-3 rounded-2xl shadow transition-colors duration-300"
             role="button"
             aria-label="Call 0333 344 7600"
         >

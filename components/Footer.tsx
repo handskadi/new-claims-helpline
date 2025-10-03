@@ -19,9 +19,9 @@ const Footer: React.FC<FooterProps> = ({
           <p className="text-base font-bold text-black">Call us anytime on</p>
           <Link
             href="tel:03333447600"
-            className="flex items-center justify-center gap-6 pl-12 pr-14 py-4 rounded-xl shadow-md bg-[#33E5F5] text-black border-[3px] border-white hover:bg-white hover:text-[#33E5F5] hover:border-[#33E5F5] transition-colors duration-300"
+            className="flex items-center justify-center gap-6 pl-12 pr-14 py-4 rounded-xl shadow-md bg-[#33F5C1] text-black border-[3px] border-white hover:bg-white hover:text-black hover:border-[#33F5C1] transition-colors duration-300"
           >
-            <div className="animate-swing text-black hover:text-[#33E5F5] transition-colors duration-300">
+            <div className="animate-swing text-black hover:text-[#33F5C1] transition-colors duration-300">
               {/* New Heroicons Phone Icon */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const Footer: React.FC<FooterProps> = ({
       </section>
 
       {/* CTA Footer Section */}
-      <section className="relative bg-[#33E5F5] w-full  overflow-hidden text-white">
+      <section className="relative bg-[#33F5C1] w-full  overflow-hidden text-white">
         <div className="absolute w-full bg-white" style={{ borderBottomLeftRadius: '100% 40%', borderBottomRightRadius: '100% 80%' }}>
           <h2 className="text-center text-2xl font-bold py-4 text-black"></h2>
         </div>
@@ -55,7 +55,7 @@ const Footer: React.FC<FooterProps> = ({
         </div>
       </section>
       {/* Footer */}
-      <footer className="w-full bg-[#33E5F5] text-sm text-gray-600 px-4 py-8 lg:px-80">
+      <footer className="w-full bg-[#33F5C1] text-sm text-gray-600 px-4 py-8 lg:px-80">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div className="flex flex-col gap-4 items-center md:items-start">
             <Image
