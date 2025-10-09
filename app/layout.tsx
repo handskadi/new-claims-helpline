@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "New Claims Helpline",
+  title: "Motor Claims Helpline",
   description: "Independent, hassle-free claims assistance",
 };
 
@@ -23,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="color-scheme" content="light" />
         {/* Google Tag Manager */}
         <Script id="gtm-loader" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

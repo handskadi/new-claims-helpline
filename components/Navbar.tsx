@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
           | Powered By
         </p> */}
         <Image
-          src="/logo-nch.svg"
+          src="/logo-nch1.svg"
           alt="Accident Claims Helpline Logo"
           width={80}
           height={39}
