@@ -6,14 +6,10 @@ interface FooterProps {
   showClaimsLink?: boolean;
 }
 
-const Footer: React.FC<FooterProps> = ({
-}) => {
+const Footer: React.FC<FooterProps> = ({}) => {
   return (
     <>
-
-      <section
-        className="relative w-full overflow-hidde bg-white"
-      >
+      <section className="relative w-full overflow-hidde bg-white">
         {/* CTA content */}
         <div className="pt-24 pb-2 flex flex-col items-center justify-center gap-4">
           <p className="text-base font-bold text-black">Call us anytime on</p>
@@ -54,6 +50,7 @@ const Footer: React.FC<FooterProps> = ({
           <p className="text-base"></p>
         </div>
       </section>
+
       {/* Footer */}
       <footer className="w-full bg-[#41CBFE] text-sm text-gray-600 px-4 py-8 lg:px-80">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
@@ -94,20 +91,17 @@ const Footer: React.FC<FooterProps> = ({
           </div>
         </div>
 
-
         <div className="mt-8 pt-8 border-t border-gray-200 space-y-4">
           <p className="text-xs">
-            PURPLE SPRING LIMITED, registered in England and Wales, Company Number: 11611972. Address: 4200 Solihull Parkway, Birmingham Business Park, Birmingham, England, B37 7YN. PURPLE SPRING LIMITED operates within the advertising sector, specialising in lead generation. PURPLE SPRING LIMITED is registered with the Information Commissioner’s Office under the Data Protection Act 2018
+            <strong>Car Accident Line</strong> is a trading style of <strong>PURPLE SPRING LIMITED</strong>, registered in England and Wales (Company No. <strong>11611972</strong>). Registered Address: 4200 Solihull Parkway, Birmingham Business Park, Birmingham, England, B37 7YN. <strong>PURPLE SPRING LIMITED</strong> operates within the advertising and lead-generation sector. We introduce customers to authorised UK accident-management providers who deliver repair and replacement services following non-fault accidents. We do <strong>not</strong> provide insurance, legal, or claims-management services directly. We are independent of all insurers and accident-management companies. You are under no obligation to use our partners and may contact your insurer or manage your case directly if you prefer. Registered with the Information Commissioner’s Office under the Data Protection Act 2018.
           </p>
 
           <p className="text-xs font-bold">
             © 2025 Car Accident Line. All rights reserved.
           </p>
         </div>
-
       </footer>
     </>
-
   );
 };
 
