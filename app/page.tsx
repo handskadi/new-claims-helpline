@@ -5,12 +5,14 @@ import ProgressiveReveal from "@/components/ProgressiveReveal";
 import PhoneButton from "@/components/PhoneButton";
 import WaitTimeIndicator from "@/components/WaitTimeIndicator";
 import FaqDropdown from "@/components/FaqDropdown";
+import HeroSection from "@/components/HeroSection";
 
 
 export default function HomePage() {
   return (
     <main className="w-full text-gray-800">
       <Navbar2 />
+      <HeroSection/>
       <section className="flex flex-col items-center justify-center text-center w-full gap-4 px-4 py-6">
         <h2 className="text-sm font-bold uppercase">
           Call us now to report a claim
