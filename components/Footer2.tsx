@@ -8,7 +8,7 @@ interface FooterProps {
 
 const Footer2: React.FC<FooterProps> = ({
   phoneNumber = "0333 344 7600",
-  showClaimsLink = true,
+//   showClaimsLink = true,
 }) => {
   const currentYear = new Date().getFullYear();
 
