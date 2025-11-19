@@ -6,7 +6,7 @@ interface FooterProps {
   showClaimsLink?: boolean;
 }
 
-const Footer: React.FC<FooterProps> = ({}) => {
+const Footer: React.FC<FooterProps> = ({ }) => {
   return (
     <>
       <section className="relative w-full overflow-hidde bg-white">
@@ -14,7 +14,7 @@ const Footer: React.FC<FooterProps> = ({}) => {
         <div className="pt-24 pb-2 flex flex-col items-center justify-center gap-4">
           <p className="text-base font-bold text-black">Call us anytime on</p>
           <Link
-            href="tel:03333447600"
+            href="tel:03300434042"
             className="flex items-center justify-center gap-6 pl-12 pr-14 py-4 rounded-xl shadow-md bg-[#41CBFE] text-black border-[3px] border-white hover:bg-white hover:text-black hover:border-[#41CBFE] transition-colors duration-300"
           >
             <div className="animate-swing text-black hover:text-[#41CBFE] transition-colors duration-300">
@@ -34,7 +34,7 @@ const Footer: React.FC<FooterProps> = ({}) => {
                 />
               </svg>
             </div>
-            <span className="font-extrabold text-lg">0333 344 7600</span>
+            <span className="font-extrabold text-lg">0330 043 4042</span>
           </Link>
 
           <p className="text-base font-bold text-black">Lines are open 24/7 all year.</p>
@@ -82,8 +82,8 @@ const Footer: React.FC<FooterProps> = ({}) => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <Link href="tel:03333447600" className="underline">
-                    Call us at 0333 344 7600
+                  <Link href="tel:03300434042" className="underline">
+                    Call us at 0330 043 4042
                   </Link>
                 </span>
               </li>

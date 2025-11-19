@@ -12,13 +12,13 @@ export default function HomePage() {
   return (
     <main className="w-full text-gray-800">
       <Navbar2 />
-      <HeroSection/>
+      <HeroSection />
       <section className="flex flex-col items-center justify-center text-center w-full gap-4 px-4 py-6">
         <h2 className="text-sm font-bold uppercase">
           Call us now to report a claim
         </h2>
-        <PhoneButton phoneNumber="03333447600" showIcon={true}>
-          0333 344 7600
+        <PhoneButton phoneNumber="03300434042" showIcon={true}>
+          0330 043 4042
         </PhoneButton>
         <WaitTimeIndicator />
         <p className="max-w-[490px] text-base mt-4">
@@ -62,8 +62,8 @@ export default function HomePage() {
           Is your windscreen cracked or chipped? If you have comprehensive
           cover, you can arrange unlimited repairs. To make a glass claim and
           arrange a repair,{" "}
-          <a href="tel:03333447600" className="text-[#4682B4] underline">
-            call us at 0333 344 7600
+          <a href="tel:03300434042" className="text-[#4682B4] underline">
+            call us at 0330 043 4042
           </a>
           .
         </p>

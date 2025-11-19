@@ -6,9 +6,9 @@ interface CtaSectionProps {
   displayNumber?: string; // Number shown to the user
 }
 
-const CtaSection: React.FC<CtaSectionProps> = ({ 
-  phoneNumber = "03303412329",
-  displayNumber = "0330 341 2329"
+const CtaSection: React.FC<CtaSectionProps> = ({
+  phoneNumber = "03300434042",
+  displayNumber = "0330 043 4042"
 }) => {
   return (
     <section className="relative bg-[#4682B4] w-full mt-4 overflow-hidden">

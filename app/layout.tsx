@@ -46,20 +46,21 @@ export default function RootLayout({
         {/* ✅ Google Ads base config */}
         <Script id="gtag-init" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-17643542041');
-          `}
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17643542041');
+  `}
         </Script>
 
-        {/* ✅ Google Ads phone conversion tracking */}
+        {/* ✅ Google Ads phone conversion tracking (UPDATED) */}
         <Script id="gtag-phone" strategy="afterInteractive">
           {`
-            gtag('config', 'AW-17643542041/U75ZCP-WpKwbEJmsjN1B', {
-              'phone_conversion_number': '03333447600'
-            });
-          `}
+    gtag('config', 'AW-17643542041/kja2CIKXpKwbEJmsjN1B', {
+      'phone_conversion_number': '0330 043 4042'
+    });
+  `}
         </Script>
       </head>
 
