@@ -20,7 +20,7 @@ const Footer2: React.FC<FooterProps> = ({
           {/* Logo and company info */}
           <div className="flex flex-col gap-4">
             <Image
-              src="/logo-nch1.svg"
+              src="/logoFooter.svg"
               alt="Company Logo"
               width={160}
               height={100}

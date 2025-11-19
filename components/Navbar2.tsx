@@ -7,10 +7,10 @@ const Navbar2: React.FC = () => {
     <nav className="w-full py-4 px-4 bg-white relative">
       <div className="flex flex-row gap-2 items-center justify-center">
         <Image
-          src="/logo-nch1.svg"
+          src="/logoNavbar.svg"
           alt="Logo"
-          width={124}
-          height={60}
+          width={248}
+          height={120}
         />
         {/* <p className="text-sm whitespace-nowrap">
           | Powered By <span className="font-bold">Motor Accident Group</span>
